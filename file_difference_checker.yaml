@@ -1,0 +1,23 @@
+---
+- name: File Difference Checker # Playbook name
+  hosts: localhost # Target host
+  gather_facts: false # Disable gathering facts about the host
+
+  vars:
+      exceptions: # List of exceptions
+          - SERVER
+          - ID
+          - PASSWORD
+
+  tasks:
+      - name: Exceptions Specification # Task to display exceptions
+        debug:
+            msg: "{{ exceptions | to_json }}"
+
+      - name: Run script # Task to run the script
+        shell: "python3 main.py --file1 first.txt --file2 second.txt --exceptions {{ exceptions | to_json }}"
+        register: cmd_output # Register the output of the command
+
+      - name: Get output # Task to display the command output
+        debug:
+            var: cmd_output.stdout_lines
