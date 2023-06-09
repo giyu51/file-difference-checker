@@ -269,4 +269,4 @@ The code can be integrated with other tools or workflows, such as Ansible/YAML, 
 This project is licensed under the MIT License 📜.
 
 ## :pray: Acknowledgments
-Special thanks to @diniliaqil for the inspiration and idea behind this project. Your contribution is greatly appreciated.
+Special thanks to [@diniliaqil](https://github.com/diniliaqil) for the inspiration and idea behind this project. Your contribution is greatly appreciated.
