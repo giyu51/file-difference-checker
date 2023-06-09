@@ -1,6 +1,6 @@
 # :file_folder:  File Difference Checker
 
-**:notes: File Difference Checker** is a Python script that allows you to compare the contents of two text files and identify the differences between them. It provides a convenient way to analyze and understand changes between two versions of a file.
+**:file_folder: File Difference Checker** is a Python script that allows you to compare the contents of two text files and identify the differences between them. It provides a convenient way to analyze and understand changes between two versions of a file.
 
 ## :sparkles: Features
 
