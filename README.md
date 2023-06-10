@@ -248,7 +248,7 @@ The main function in the code is `differ`, which takes two file paths as input p
 1. It reads the lines from both files and filters out newline characters.
 2. Empty lines are removed from the filtered lines.
 3. The filtered lines of each file are compared to check for identical contents. If the files are identical, the function returns "No differences found."
-4. If the filtered lines differ, the function proceeds to compare line by line, identifying differences and accounting for the specified exceptions. Differences are printed along with the corresponding line numbers (line number is considered to be the line number of a filtered file) and files.
+4. If the filtered lines differ, the function proceeds to compare line by line, identifying differences and accounting for the specified exceptions. Differences are printed along with the corresponding line numbers (line number is considered to be the line number of a filtered file, e.g., N-1, N-4) and files.
 5. If the number of lines in the files is not equal, the function handles the case and prints the line from the file with more lines.
 6. After comparing all lines, the function displays the total number of differences found.
 7. Finally, the function calculates the file similarity percentage using the `difflib.SequenceMatcher` and returns the result.
