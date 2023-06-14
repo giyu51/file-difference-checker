@@ -28,10 +28,6 @@ To run this project, you need to have the following dependencies installed:
 
 ## :inbox_tray: Installation
 
-<!-- ##### Debian-based (e.g., Ubuntu, Debian): -->
-<!-- ##### RPM-based (e.g., Fedora, CentOS, Red Hat Enterprise Linux): -->
-<!-- ##### Windows -->
-
 Clone the repository to your directory
 
 ```xml
