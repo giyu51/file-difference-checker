@@ -15,7 +15,7 @@
             msg: "{{ exceptions | to_json }}"
 
       - name: Run script # Task to run the script
-        shell: "python3 main.py --file1 first.txt --file2 second.txt --exceptions {{ exceptions | to_json }}"
+        shell: "python3 compare.py --file1 <FILE 1> --file2 <FILE 2> --exceptions {{ exceptions | to_json }}"
         register: cmd_output # Register the output of the command
 
       - name: Get output # Task to display the command output
